@@ -1,0 +1,3090 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&family=Orbitron&family=Palanquin:wght@100&family=Unica+One&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing:border-box;
+ }
+
+body 
+ {
+     background-color: rgb(255, 255, 255);
+     
+ }
+
+
+ /* Home */
+.logo-1
+ {
+     color: rgb(255, 255, 255);
+     font-weight: 500;
+     font-size: 35px;
+     /* font-family: 'Orbitron', sans-serif; */
+     font-family: 'MuseoModerno', cursive;
+     word-spacing: 2;
+     margin-top: 0.7%;
+     position: relative;
+     
+ }
+
+/* .menu-btn i
+ {
+    
+    display: none;
+     
+ }
+ 
+.click-btn i
+ {
+    
+    display: none;
+     
+ } */
+
+ #menu-btn{
+    display: none;
+  }
+ #menu-btn-n{
+    display: none;
+  }
+
+   
+.navbar-1 ul
+{
+    list-style: none;
+    display: flex;
+    margin-top:15px;
+    margin-bottom: -30px;
+   
+}
+
+.navbar-1 li
+{
+    margin-top: 12px;
+    color: white;
+    padding: 0 10px;
+}
+
+.navbar-1 a
+{
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    box-shadow: black;
+    cursor: pointer;
+    font-size: 15px;
+    
+
+}
+
+.navbar-1 a:hover
+{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0);
+    
+}
+
+.underline-hover-1::after
+{
+    content: '';
+    display: block;
+    width:0;
+    bottom: 0;
+    margin: 10px;
+    height: 2px;
+    transform: scale(0,1);
+    transition: all .3s ease-in-out ;
+    background: rgb(255, 255, 255);
+    
+}
+
+.underline-hover-1:hover::after
+{
+    width: 100%;
+    transform: scale(1);
+
+}
+
+/* navbar-container */
+
+.nav-container
+{
+   max-width: 1200px;
+   margin:  auto;
+   overflow:hidden;
+   padding: 0 20px;
+}
+
+.nav-flex
+{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+     position: relative;
+     z-index: 1;
+}
+
+/* background-video */
+
+ .home-bg-video video 
+ {
+     position:absolute;
+     margin-top: -11%;
+     opacity: 100%;
+    
+}
+
+.home-bg-video video
+{
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+/* Products */
+ 
+
+.logo-2
+{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 35px;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'MuseoModerno', cursive;
+    word-spacing: 2;
+    margin-top: 0.7%;
+    
+}
+
+.menu-2
+{
+    display: none;
+}
+
+  
+  
+.navbar-2 ul
+{
+    list-style: none;
+    display: flex;
+    margin-top:15px;
+    margin-bottom: -30px;
+   
+}
+
+.navbar-2 li
+{
+    margin-top: 12px;
+    color: rgb(0, 0, 0);
+    padding: 0 10px;
+}
+
+.navbar-2 a
+{
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    box-shadow: black;
+    cursor: pointer;
+    font-size: 15px;
+    
+
+}
+
+/* .navbar-2 a:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    
+} */
+
+.underline-hover-2::after
+{
+    content: '';
+    display: block;
+    width:0;
+    bottom: 0;
+    margin: 10px;
+    height: 2px;
+    transform: scale(0,1);
+    transition: all .3s ease-in-out ;
+    background: rgb(255, 255, 255);
+    
+}
+
+.underline-hover-2:hover::after
+{
+    width: 100%;
+    transform: scale(1);
+
+}
+
+/* navbar-container */
+
+.nav-container
+{
+  max-width: 1200px;
+  margin:  auto;
+  overflow:hidden;
+  padding: 0 20px;
+}
+
+.nav-flex
+{
+   display: flex;
+   justify-content: space-between;
+   height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* background-video */
+
+.product-bg-video video 
+{
+    position:absolute;
+    margin-top: 1%;
+    width: 58%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20.7%;
+   
+}
+
+.products-bg-video video
+{
+   position:absolute;
+   z-index: 1;
+}
+
+
+/* products details */
+
+.headphone-container
+{
+    
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display:flex;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.headphone-video
+{
+    
+    width: 100%;
+    padding-left: 6%;
+    height: auto;
+    margin-top: 1%;
+    flex: 55%;
+}
+
+.headphone-about
+{
+    width: 100%;
+    flex: 45%;
+    font-size: 15px;
+    margin-left: -30%;
+    margin-right: 5%;
+    padding: 0 2% 0 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* google-map + contact-form */
+
+.products-contact-container
+{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display:flex;
+    margin-top: 5%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+
+}
+
+.products-in
+{
+    width: 30%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    border-radius: 5px;
+    
+
+}
+
+.products-img
+{
+    width: 100%;
+    padding-left: 30%;
+    height: auto;
+    flex: 60%;
+}
+
+
+.products-about 
+{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 80px;
+    color: #000000;
+
+    flex: 40%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .products-about p
+
+ {
+    width: 100%;
+    height: 260;
+    flex: 50%;
+    margin-right: 2%;
+    padding: 0 2% 0 2%;
+} 
+
+    
+/* .products-img
+{
+    width: 100%;
+    height: 270;
+    flex: 80%;
+}
+
+.products-contact-container .products-in
+{
+
+    box-shadow:none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    width: 78%;
+    margin-bottom: 5%;
+}
+.products-about
+{
+    width: 100%;
+    height: 260;
+    flex: 800%;
+    margin-right: 2%;
+    padding: 0 2% 0 2%;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* description */
+
+ .description
+{
+    display: grid;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+    text-shadow: 1px solid white;
+    text-align: center;
+    
+}
+
+.short-des
+{
+    text-align: center;
+    margin-top: 25%;
+    justify-content: space-evenly;
+    padding: 1;
+    color: rgb(241, 234, 234);
+    position: relative;
+    font-size: 2.2rem;
+    word-spacing: 0.2rem;
+    font-family: 'Inter', sans-serif;
+} 
+
+.changing-text
+{
+    animation: changing-text 5s infinite ;
+}
+
+@keyframes changing-text{
+    0% {
+        color: rgb(52, 0, 240);
+        
+    }
+    28% {
+        color: rgb(255, 38, 0);
+        
+    }
+    55% {
+        color: rgb(255, 0, 119);
+        
+    }
+    78% {
+        color: rgb(0, 173, 23);
+        
+    }
+    100% {
+        color: rgb(255, 174, 0);
+        
+    }
+}
+
+
+.short-des h3
+{
+    cursor: pointer;
+    word-spacing: 0.5;
+
+}
+
+
+
+/* .long-des p
+{
+    position: relative;
+    text-align: center;
+    opacity: 0.5;
+    padding: 5px 150px;
+    font-family: roboto;
+    letter-spacing: 0.1rem;
+    font-size: 12px;
+    color: rgb(238, 238, 238);
+} */
+
+.trending-games
+{
+    display: grid;
+    grid-template-columns: repeat (1 1fr);
+    grid-template-rows: 2fr 2fr;
+}
+
+.trending .trend-title
+{
+    position: relative;
+}
+.top-game
+{
+    
+    margin: 5%;
+}
+
+.trend-title, .product-trend-title
+{
+    position: relative;
+    margin-top: 12%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(228, 228, 228);
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.product-trend-title
+{
+    position: relative;
+    margin-top: 5%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.icon-down
+{
+    font-size: 2rem;
+    position: absolute;
+    padding-left: 15px;
+    margin-top: 5px;
+    animation: up-down 0.9s ease infinite alternate;
+}
+
+@keyframes up-down{
+    0%
+    {
+        transform: translateY(0); 
+    }
+
+    100% 
+    { 
+        transform: translateY(-15px);
+    }
+
+}
+
+.container
+{
+   margin:  auto;
+   padding: 0 20px;
+}
+/* slider */
+
+/* .img-slider
+{
+    position:absolute;
+    height:50%;
+    margin-top: 40%;
+    display: grid;
+    width:87%;
+    background-image: url("icons/call_of_duty_black_ops_4.jpg");
+    background-size: 100%;
+    margin-top: 44%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    animation: slider 8s infinite linear;
+
+}     */
+
+@keyframes slider {
+    0% {
+        background-image: url("icons/call_of_duty_black_ops_4.jpg");
+        background-repeat: no-repeat;
+        
+    }
+    35% {
+        background-image: url("icons/pink_mercy_overwatch_4k.jpg");
+        background-repeat: no-repeat;
+        
+    }
+    70% {
+        background-image: url("icons/vayne_league_of_legends.jpg");
+        background-repeat: no-repeat;
+        
+    }
+    100% {
+        background-image: url("icons/world_of_tanks_round_shaped_tanks_hd_world_of_tanks.jpg");
+        background-repeat: no-repeat;
+   }
+
+}
+
+/* container flex */
+
+  .container
+{
+   max-width:auto;
+   padding: 0 20px;
+}
+
+.flex
+{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}  
+
+
+.images
+{
+    cursor: pointer;
+    margin-top: 50%;
+    
+}
+.images .top-game
+{
+   margin: 18px ;
+   text-align: center;
+   transition: transform 0.2s ease;
+   
+}
+
+.images .top-game:hover
+{
+   transform: translateY(-15px);
+} 
+
+/* .image
+{
+    cursor: pointer;
+    margin-top: 30%;
+    width: 80%;
+    height: 200px;
+    
+}
+.image-contain
+{
+    display:grid;
+    grid-template-columns:repeat(3 fr) 2fr;
+    
+}
+
+
+.grid
+{
+    display:grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 2fr ;
+   
+}  */
+
+.top-games-container h2
+{
+    text-align: center;
+    margin-top: 9%;
+    font-family: monospace;
+    margin-bottom: 2%;
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.img-container .img-area
+{
+    cursor: pointer;
+    width: 85%;
+    
+}
+.game-main-title
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: -30px;
+    color: rgb(0, 0, 0);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dis-top-games
+{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.8;
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 12%;
+    margin-top: -0.000%;
+    margin-right: 5%;
+    width: 80%;
+  }
+
+  .img-container img {
+    width: 100%;
+    opacity: 0.5 black;
+    display: block;
+    border-radius:1%;
+    transition: all 200ms ease-out;
+  }
+  
+  .img-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  /* button */
+
+  .more-btn
+  {
+      text-align: center;
+      margin-bottom: 7%;
+  }
+
+/*   
+.dis-top-games
+{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.8;
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+} */
+
+  .button
+  {
+      border:none;
+      display: flex;
+      color: rgb(0, 0, 0);
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.5s;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 10px;
+  }
+
+  .button-1
+  {
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      border-radius: 5%;
+  }
+
+  .button-1:hover
+  {
+      background-color: black;
+      color: white;
+  }
+
+  /* articles */
+/* .blog-container h1
+{
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 0.5%;
+    color: black;
+    font-size: 2rem;
+    margin-top: -5%;
+    
+} */
+
+.blog-container h2
+{
+    text-align: center;
+    margin-top: 6%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1%;
+    
+}
+  
+.articles
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: -0.000%;
+    
+    text-align: center;
+ }
+
+  .articles img {
+    width: 95%;
+    display: block;
+    margin-left: 2px;
+    border-radius:0.5%;
+    transition: all 200ms ease-out;
+  }
+  
+  .img-container img:hover {
+    transform: scale(1.04);
+
+  }
+
+  .article-1
+  {
+      background-color: tomato;
+  }
+  
+  .news-article .article-title
+ {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.news-article h4
+ {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: -10%;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    justify-content: center;
+ }
+
+.news-article p
+{
+    font-family: monospace;
+    margin: 5px;
+    text-align: center;
+}
+
+.news-article i
+{
+    margin-top:3%;
+    padding: 5px 28px;
+    margin-left: -10%;
+    text-align: center;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+
+.news-article i:hover
+{
+    color:rgb(0, 0, 0);
+}
+ 
+
+
+/* Team Members */
+
+.team-container
+{
+    margin-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.team-container h2
+{
+    text-align: center;
+    margin-top: 8%;
+    font-family: monospace;
+    margin-bottom: 1%;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1%;
+    
+}
+
+.profile .img-area
+{
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.profile-main-title
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-top: 1%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile-sub-title 
+{
+    text-align: center;
+    justify-content: center;
+    margin-left: 14%;
+    margin-top: 1%;
+    color: rgb(105, 105, 105);
+    font-family:'Helvetica Neue', sans-serif;
+}
+/* 
+.dis-top-games
+{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.8;
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+} */
+.profile {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 25px;
+    background: rgb(255, 255, 255);
+    width: 85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: -0.000%;
+    margin-right: 5%;
+  }
+
+  .profile img {
+    max-width:100%;
+    border: 4px solid #ffffff;
+    border-radius:3%;
+    filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+    margin: 20px;
+    box-shadow:  2px rgba(61, 61, 61, 0.5);
+    transition: all 200ms ease-out;
+  }
+  
+  .profile img:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section .our-team
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #161623;
+    min-height: 100vh;
+
+}
+
+.team-main
+{
+    position: relative;
+}
+
+.team-main::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(#f00,#f0f);
+    clip-path: circle(30%, at right 70%);
+}
+
+.team-main::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(#2196f3,#e91e63);
+    clip-path: circle(30%, at right 70%);
+}
+
+
+.team-container
+{
+    position: relative
+    z-index:1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:40px 0;
+
+}
+
+.team-container .card
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: mediumorchid;
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* 
+.our-team
+{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.team-container
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 1440px;
+    margin: 0 20px;
+
+}
+
+.section-heading
+{
+    font-family: -apple-system, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #10996d;
+    margin: 0 0 20px 20px;
+}
+
+.profile
+{
+    position: relative;
+    transition: all 0.3s ;
+}
+
+.profile:hover
+{
+    transform: translateY(25px);
+}
+
+.profile img 
+{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+}
+
+.profile:not(:first-child) img
+{
+    margin-left: -20px;
+}
+
+.profile .name 
+{
+    position: relative;
+    background-color: #103310;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 100px;
+    bottom: -40px;
+    left: -40px;
+    white-space: nowrap;
+    transform: translate(-40px, -40px);
+    letter-spacing: 1px;
+    font-size: 10px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.profile .name::before 
+{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #10996d;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+
+}
+
+.profile img:hover + .name 
+{
+    opacity: 1;
+    transform: translate(-50%);
+    box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+}
+ */
+
+
+
+
+
+
+    /* footer */
+
+.footer-container
+{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer
+{
+    background-color: rgb(15, 15, 15);
+    padding: 50px 10px;
+    line-height: 1.5;
+}
+
+.footer ul
+{
+    list-style: none;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col
+{
+    width: 20%;
+    padding: 5px 10px;
+}
+
+.footer-col h4
+{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child)
+{
+    margin-bottom: 5px;
+
+}
+
+.footer-col ul li a
+{
+    font-size: 16px;
+    color: #a8a8a8;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.6s ease;
+}
+
+.footer-col ul li a:hover
+{
+    color: white;
+    padding-left: 8px;
+}
+
+
+.footer-col .contact-details a
+{
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 38px;
+    transition: all 0.5s ease;
+    color: #eeeeee;
+}
+
+.footer-col .social-links a
+{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    background-color: rgba(44, 44, 44, 0.3);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 58px;
+    border-radius:50% ;
+    transition: all 0.5s ease;
+    color: #eeeeee;
+}
+
+.footer-col .social-links a:hover
+{
+    color:#24262b;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* google-map + contact-form */
+
+.google-contact-container
+{
+    width: 100%;
+    align-items: center;
+    background-color: rgba(48, 48, 48, 0.938);
+    display: flex;
+    padding: 40px;
+    margin-bottom: 5%;
+    justify-content: space-between;
+
+}
+
+.contact-in
+{
+    width: 73%;
+    height: auto;
+    margin:auto 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 3%;
+    border-radius: 5px;
+    margin-left:  3.5%;;
+    background-color: #f8f8f8;
+    box-shadow:0px 0px 10px 0px #666;
+
+}
+
+.google-map
+{
+    width: 100%;
+    height: 270px;
+    flex: 50%;
+}
+
+.google-map h3
+{
+    
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding:2px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-form h3
+{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 23px;
+    color: #f8f8f8;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-form
+{
+    width: 100%;
+    height: 260;
+    flex: 50%;
+    margin-right: 2%;
+    padding: 0 2% 0 2%;
+}
+
+.contact-form-txt
+{
+    width: 100%;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+
+.contact-form-txt::placeholder
+{
+    color: rgb(116, 116, 116);
+}
+
+.contact-form-txtarea
+{
+    width: 100%;
+    height: 130px;
+    color: rgb(0, 0, 0);
+    background-color: #f0f0f0;
+    border: 1px solid brown;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+.contact-form-txtarea::placeholder
+{
+    color: rgb(116, 116, 116);
+}
+
+.contact-form-btn
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    background:#f0f0f0;
+    color: rgb(0, 0, 0);
+    padding: 8px 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact-form-btn:hover
+{
+    background-color: white;
+}
+
+
+
+
+/* description */
+.product-description
+{
+    display: grid;
+    font-size: 20px;
+    color: rgb(226, 226, 226);
+    text-shadow: 1px solid white;
+    text-align: center;
+    
+}
+
+.product-short-des
+{
+    text-align: center;
+    margin-top: 35%;
+    justify-content: space-evenly;
+    padding: 1;
+    color: rgb(185, 185, 185);
+    position: relative;
+    font-size: 2.2rem;
+    padding: 2%;
+    word-spacing: 0.2rem;
+    font-family: 'Inter', sans-serif;
+} 
+
+.product-short-des h3
+{
+    cursor: pointer;
+    word-spacing: 0.5;
+
+} 
+
+
+.product-changing-text
+{
+    animation: product-changing-text 5s infinite ;
+}
+
+@keyframes product-changing-text{
+    0% {
+        color: rgb(31, 0, 145);
+        
+    }
+    28% {
+        color: rgb(255, 38, 0);
+        
+    }
+    55% {
+        color: rgb(255, 0, 119);
+        
+    }
+    78% {
+        color: rgb(0, 173, 23);
+        
+    }
+    100% {
+        color: rgb(255, 174, 0);
+        
+    }
+}
+
+
+
+
+/* service */
+.service-subscription
+{
+    text-align: center;
+    padding: 0 28px;
+    color: black;
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    
+}
+
+.service-subscription h2
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.subsc-sub
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plan-subs
+{
+    font-size: 15px;
+    letter-spacing: 1.2;
+    margin: 3% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+.subscription-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+
+
+}
+
+.subs-container
+{
+    
+   
+    gap: 15px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    margin-left: 10%;
+    margin-top: -0.000%;
+    margin-right: 5%;
+    text-align: center;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* games */
+
+.games-header
+{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    opacity: 0.2 black;
+    padding: 5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+/* service */
+
+.service-header
+{
+    
+    background-color: #000000f1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    opacity: 0.2 black;
+    padding: 50px;
+    margin-top: 2%;
+    
+}
+
+.services
+{
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+   
+}
+
+.search-bar
+{
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(41, 41, 41);
+}
+
+.service-header input[type=text] {
+
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+  }
+
+  .service-header input[type="text"]:focus
+{
+	outline: 0;
+}
+
+
+.service-header input[type="submit"]
+{
+	border: 0px;
+	background: none;
+	background-color: #69676721;
+	color: rgb(255, 255, 255);
+	padding: 9.2px;
+    cursor:pointer;
+    border-radius: 2px;
+
+}
+
+/* games */
+
+.game-header
+{
+    
+    background-color: rgba(206, 206, 206, 0.486);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    opacity: 0.2 black;
+    padding: 30px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+
+.services
+{
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+   
+}
+
+.search-bar
+{
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(41, 41, 41);
+}
+
+.game-header input[type=text] {
+
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+  }
+
+  .game-header input[type="text"]:focus
+{
+	outline: 0;
+}
+
+
+.game-header input[type="submit"]
+{
+	border: 0px;
+	background: none;
+	background-color: #3f3c3cc9;
+	color: rgb(255, 255, 255);
+	padding: 9.2px;
+    cursor:pointer;
+    border-radius: 2px;
+
+}
+
+
+/* service details */
+
+.service-main-title
+{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.i-icon
+{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: -50px;
+    
+}
+
+
+/* 
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 30px;
+    background: rgb(255, 255, 255);
+    margin-left: 12%;
+    margin-bottom: 5%;
+    margin-top: -0.000%;
+    font-size: 13px;
+    
+  }
+
+ 
+  
+  .img-container img:hover {
+    transform: scale(1.1);
+  } 
+
+  .i-icon i
+  {
+      text-align: center;
+  } */
+
+  /* .i-icon h3{
+    width: 100%;
+    opacity: 0.5 black;
+    display: block;
+    border-radius:1%;
+    transition: all 200ms ease-out;
+  }
+   */
+
+
+  /* contact */
+
+  .form
+  {
+      border: 4px solid #f1f1f1;
+  }
+
+  .newsletter
+  {
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+
+  .newsletter-container h2
+{
+    margin-bottom: 15px;
+}
+
+  .newsletter-container {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-right: 12%;
+    margin-left: 15%;
+    box-shadow: 0px 10px 5px 5px rgb(226, 226, 226);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  .newsletter-container input[type=text], .newsletter-container input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(167, 167, 167);
+    box-sizing: border-box;
+  }
+  
+  
+  .newsletter-container input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+
+  .newsletter-container input[type=submit] {
+    background-color: #272727;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .newsletter-container  input[type=submit]:hover {
+    background-color: #000000;
+  }
+
+
+  /* About */
+
+  .about-header
+  {
+      padding: 100px;
+      margin-top: 2%;
+      padding-left: 100px;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: rgba(0, 0, 0, 0.966);
+  }
+
+  .about-header p
+  {
+      font-size: 15px;
+  }
+
+  .about-header h2
+  {
+      font-size: 35px;
+  }
+
+  .about-main
+  {
+      margin-top: 5%;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 5%;
+  }
+
+  .about-main P
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+
+  .about-main h2
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      font-size: 2rem;
+      color: black;
+      margin-left: 15%;
+      font-family: sans-serif;
+  }
+
+  .about-text
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 2%;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 1%;
+      color: rgb(80, 79, 79);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+
+.contact-main
+{
+    padding: 40px;
+    margin-top: 2%;
+    background-color: rgba(247, 247, 247, 0.911);
+}
+  .contact-text h3
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 1%;
+      margin-left: 20%;
+      margin-right: 20%;
+      font-weight: 500;
+      margin-bottom: 2%;
+      color: rgb(80, 79, 79);
+  }
+
+  .contact-main h1
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 2%;
+      margin-left: 20%;
+      font-size: 35px;
+      font-weight: 500;
+      color: rgb(0, 0, 0);
+  }
+
+
+
+
+  /* fotter-bottom */
+
+  .bottom-footer
+  {
+      text-align: center;
+      padding: 15px;
+      color: white;
+      background-color: rgb(20, 20, 20);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .bottom-footer a
+  {
+      color: white;
+      text-decoration: none;
+      font-family: 'MuseoModerno', cursive;
+  }
+
+
+
+
+
+
+
+
+
+  .nav .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+ 
+
+   /* menu icon */
+      
+   
+  
+
+
+
+
+
+
+
+
+
+
+  
+/* media queries */
+
+@media (max-width:1200px){
+
+    .trend-title{
+        color: rgb(0, 0, 0);
+        padding-top: 35px;
+    }
+
+    /* .product-trend-title{
+        color: rgb(0, 0, 0);
+        padding-top: 35px;
+    } */
+    .google-contact-container .contact-in
+{
+
+    box-shadow:none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.5%;
+    width: 78%;
+    margin-bottom: 8%;
+}
+.games-header
+{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
+
+
+
+
+
+@media (max-width:900px)
+{
+
+
+    .navbar-1 li
+  {
+    font-size: 15px;
+    padding: 1px;
+    margin-top: 40px;
+    
+
+  } 
+
+.navbar-1 ul li
+  {
+    color: white;
+    
+  }  
+
+  .underline-hover-1::after, .underline-hover-1::before
+  {
+    background: none;
+  }
+  
+    .navbar-1 .menu
+  {
+        position: fixed;
+        left: -100%;
+        top: 40px;
+        background-color: rgba(0, 0, 0, 0.932);
+        height: 100vh;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        display: block;
+        text-align: center;
+        transition: all 0.4s ease;
+  }
+
+.navbar-1 .menu-icon 
+  {
+        cursor: pointer;
+        display: inline-block;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+      }
+      
+      .navbar-1 .menu-icon .navicon {
+        background: rgb(255, 255, 255);
+        display: block;
+        height: 2.5px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+      
+      .navbar-1 .menu-icon .navicon:before,
+      .navbar-1 .menu-icon .navicon:after {
+        background: rgb(255, 255, 255);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      
+      .navbar-1 .menu-icon .navicon:before {
+        top: 5px;
+      }
+      
+      .navbar-1 .menu-icon .navicon:after {
+        top: -5px;
+      }
+      
+      /* menu btn */
+      
+      .navbar-1 .menu-btn {
+        display: none;
+      }
+      
+      .navbar-1 .menu-btn:checked ~ .menu {
+        
+        left: 0%;
+      }
+      
+      .navbar-1 .menu-btn:checked ~ .menu-icon .navicon {
+        background: transparent;
+      }
+      
+      .navbar-1 .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+      }
+      
+      .navbar-1 .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+      }
+      
+      .navbar-1 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+      .navbar-1 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+      }
+
+
+
+
+
+/* menu button products , games , services , contact about */
+
+    .navbar-2 li
+  {
+    font-size: 15px;
+    padding: 1px;
+    margin-top: 40px;
+    
+
+  } 
+
+.navbar-2 ul li a
+  {
+    color: white;
+    
+  }  
+
+  .underline-hover-2::after, .underline-hover-2::before
+  {
+    background: none;
+  }
+  
+    .navbar-2 .menu-n
+  {
+        position: fixed;
+        left: -100%;
+        top: 40px;
+        background-color: rgba(0, 0, 0, 0.932);
+        height: 100vh;
+        width: 100%;
+        color: rgb(253, 245, 245);
+        display: block;
+        text-align: center;
+        transition: all 0.4s ease;
+  }
+
+.navbar-2 .menu-icon-n 
+  {
+        cursor: pointer;
+        display: inline-block;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+      }
+      
+      .navbar-2 .menu-icon-n .navicon-n {
+        background: rgb(0, 0, 0);
+        display: block;
+        height: 2.5px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+      
+      .navbar-2 .menu-icon-n .navicon-n:before,
+      .navbar-2 .menu-icon-n .navicon-n:after {
+        background: rgb(0, 0, 0);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      
+      .navbar-2 .menu-icon-n .navicon-n:before {
+        top: 5px;
+      }
+      
+      .navbar-2 .menu-icon-n .navicon-n:after {
+        top: -5px;
+      }
+      
+      /* menu btn */
+      
+      .navbar-2 .menu-btn-n{
+        display: none;
+      }
+      
+      .menu-btn-n:checked ~ .menu-n {
+        
+        left: 0%;
+      }
+      
+      .navbar-2 .menu-btn-n:checked ~ .menu-icon-n .navicon-n {
+        background: transparent;
+        color: rgb(255, 255, 255);
+      }
+      
+      .navbar-2 .menu-btn-n:checked ~ .menu-icon-n .navicon-n:before {
+        transform: rotate(-45deg);
+      }
+      
+      .navbar-2 .menu-btn-n:checked ~ .menu-icon-n .navicon-n:after {
+        transform: rotate(45deg);
+      }
+      
+      .navbar-2 .menu-btn-n:checked ~ .menu-icon-n:not(.steps) .navicon-n:before,
+      .navbar-2 .menu-btn-n:checked ~ .menu-icon-n:not(.steps) .navicon-n:after {
+        top: 0;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+   
+      
+  /* .menu-icon i
+    {
+        display: block;
+        font-size: 23px;
+        color: white;
+        float: right;
+        padding-top: 15px;
+        cursor: pointer;
+
+    }
+     .click-btn i
+    {
+        display: block;
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+        float: right;
+        padding-top: 15px;
+        cursor: pointer;
+
+    } */
+
+    /* .navbar-1 ul
+    {
+        position: fixed;
+        left: -100%;
+        top: 85px;
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        color: rgb(199, 199, 199);
+        display: block;
+        text-align: center;
+        transition: all 0.4s ease;
+    }
+
+    #click:checked ~ .navbar-1 ul{
+        left: 0%;
+      }
+
+
+
+
+
+.navbar-1 a
+{
+    font-size: 15px;
+    display: block;
+    
+
+} 
+
+.navbar-1 ul li
+{
+    color: white;
+    display: none;
+}  */
+    /* .navbar-2 ul
+    {
+        position: fixed;
+        left: -100%;
+        top: 85px;
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        color: rgb(199, 199, 199);
+        display: block;
+        text-align: center;
+        transition: all 0.4s ease;
+    }
+
+    #click:checked ~ nav ul{
+        left: 0%;
+      }
+
+
+
+
+
+.navbar-2 a
+{
+    font-size: 15px;
+    display: block;
+    
+
+} 
+
+
+
+
+     */
+
+
+
+
+
+
+
+
+
+
+     /* .menu-btn
+    {
+        display: inline;
+        color: white;
+        position: relative;
+        font-size: 20px;
+     
+    } */
+
+    /*
+    .menubar-1
+    {
+        cursor: pointer;
+    } */
+
+    .trend-title
+    {
+        margin-top: 15%;
+    }
+
+    .short-des
+    {
+        font-size: 1.6rem;
+        color: rgb(214, 214, 214);
+    }
+
+     .navbar-1 a
+    {
+        color: rgb(255, 255, 255);
+        
+        
+    } 
+
+     .navbar-1 li
+    {
+        color: rgb(255, 255, 255);
+        
+        
+    } 
+
+    .logo-1
+    {
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        
+    }
+    
+ /* .menu-1 a
+ {
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+     font-weight: 300;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ } */
+
+    .bg-video video
+    {
+        position:absolute;
+        background-size: cover;
+        margin-top: 0.5%;
+
+   }
+   
+   .bg-video .bg-container {
+       position:sticky;
+       z-index: 1;
+   }
+
+
+    .footer-col 
+    {
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+
+
+    /* google map+ contact */
+
+    .google-map
+{
+    width: 100%;
+    height: 270px;
+    flex: 50%;
+}
+
+.google-contact-container .contact-in
+{
+
+    box-shadow:none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.5%;
+    width: 78%;
+    margin-bottom: 8%;
+}
+.contact-form
+{
+    width: 100%;
+    height: 260;
+    flex: 50%;
+    margin-right: 2%;
+    padding: 0 2% 0 2%;
+}
+
+
+  .products-in
+  {
+      width: 40%;
+      height: 100%;
+      margin:auto;
+      display: flex;
+      border-radius: 5px;
+      
+  
+  }
+  
+  .products-img
+  {
+      width: 100%;
+      padding-left: 20%;
+      height: auto;
+      flex: 60%;
+  }
+  
+  
+  .products-about 
+  {
+      
+      padding-left: -10px;
+      padding-right: 20px;
+     
+  }
+      
+.service-subscription
+{
+    text-align: center;
+    padding: 0 18px;
+    margin-left: 2%;
+    margin-right: 1%;
+    
+}
+
+.service-subscription h2
+{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.subsc-sub
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plan-subs
+{
+    font-size: 15px;
+    letter-spacing: 1.2;
+    margin: 3% ;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.services-container
+{
+    margin-top: 5%;
+}
+
+.services-main-title
+{
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+      margin-top: 2%;
+    color: rgb(0, 0, 0);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-main
+  {
+      margin-top:10%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 10%;
+  }
+
+  .contact-text h3
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 1%;
+      margin-left: 0%;
+      padding-left: 20px;
+      margin-right: 0%;
+      font-weight: 500;
+      margin-bottom: 2%;
+      color: rgb(80, 79, 79);
+  }
+
+  .contact-main h1
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      font-size: 35px;
+      font-weight: 500;
+      color: rgb(0, 0, 0);
+  }
+
+  .games-header
+  {
+      width: 60%;
+      align-items: center;
+      justify-content: center;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:604px)
+{
+
+
+    .navbar-1 li
+    {
+        font-size: 15px;
+        padding: 1px;
+        margin-top: 40px;
+        
+    
+    } 
+    
+    .navbar-1 ul li
+    {
+        color: white;
+        
+    }  
+    
+    .underline-hover-1::after, .underline-hover-1::before
+    {
+        background: none;
+    }
+      
+        .navbar-1 ul
+        {
+            position: fixed;
+            left: -100%;
+            top: 40px;
+            background-color: rgb(0, 0, 0);
+            height: 100vh;
+            width: 100%;
+            color: rgb(199, 199, 199);
+            display: block;
+            text-align: center;
+            transition: all 0.4s ease;
+        }
+    
+        .navbar-1 .menu-icon {
+            cursor: pointer;
+            display: inline-block;
+            padding: 20px;
+            position: relative;
+            user-select: none;
+          }
+          
+          .navbar-1 .menu-icon .navicon {
+            background: rgb(255, 255, 255);
+            display: block;
+            height: 2px;
+            position: relative;
+            transition: background .2s ease-out;
+            width: 18px;
+          }
+          
+          .navbar-1 .menu-icon .navicon:before,
+          .navbar-1 .menu-icon .navicon:after {
+            background: rgb(255, 255, 255);
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%;
+          }
+          
+          .navbar-1 .menu-icon .navicon:before {
+            top: 5px;
+          }
+          
+          .navbar-1 .menu-icon .navicon:after {
+            top: -5px;
+          }
+          
+          /* menu btn */
+          
+          .navbar-1 .menu-btn {
+            display: none;
+          }
+          
+          .navbar-1 .menu-btn:checked ~ .menu {
+            
+            left: 0%;
+          }
+          
+          .navbar-1 .menu-btn:checked ~ .menu-icon .navicon {
+            background: transparent;
+          }
+          
+          .navbar-1 .menu-btn:checked ~ .menu-icon .navicon:before {
+            transform: rotate(-45deg);
+          }
+          
+          .navbar-1 .menu-btn:checked ~ .menu-icon .navicon:after {
+            transform: rotate(45deg);
+          }
+          
+          .navbar-1 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+          .navbar-1 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+            top: 0;
+          }
+
+          
+    .logo-1
+    {
+        margin-top: 10px;
+    }
+
+    .logo-2
+    {
+        margin-top: 8px;
+        font-size: 30px;
+    }
+
+    .navbar a
+    {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .trend-title
+    {
+        
+        color: rgb(20, 20, 20);
+        margin-bottom: 8%;
+        margin-bottom: -1%;
+        
+        
+    }
+
+    .product-trend-title
+{
+    position: relative;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+    .short-des
+    {
+        font-size: 1.2rem;
+        color: rgb(214, 214, 214);
+    }
+
+    .footer-col 
+    {
+        width: 100%;
+        margin-left: 15px;
+
+    }
+
+    .home-bg-video video
+    {
+        position:absolute;
+        background-size: cover;
+        
+
+   }
+   
+   .home-bg-video .home-bg-container {
+       position:sticky;
+       z-index: -1;
+   }
+
+   .games-header
+   {
+       width: 95%;
+       margin-left: 20px;
+       margin-bottom: 10px;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+   .contact-form-txt
+{
+    width: 110%;
+    margin-left: -9%;
+ 
+}
+
+
+.contact-form-txtarea
+{
+    width: 110%;
+    margin-left: -9%;
+
+
+}
+
+
+.contact-form-btn
+{
+    width: 110%;
+    margin-left: -9%;
+ 
+}
+
+
+    .google-map 
+{
+    
+    justify-content: space-between;
+    flex: 100%;
+}
+
+.google-contact-container .contact-in
+{
+
+    box-shadow:none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5%;
+    margin-right: 0.8%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.contact-in
+{
+    width: 100%;
+    height: 280px;
+    margin:auto;
+    padding: 10px;
+    margin-top: 2.5%;
+    border-radius: 5px;
+    margin-left:  17%;;
+    background-color: none;
+    box-shadow:0px 0px 10px 0px #666;
+
+
+}
+
+.contact-form
+{
+    width: 100%;
+    height: 260;
+    flex: 100%;
+    margin-left: 9%;
+    padding: 1% 0 0 0;
+}
+.contact-form h3
+{
+    margin-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+}
+.google-contact-container
+{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+
+
+}
+
+/* .img-container
+{
+    margin-left: 15%;
+    width: 80%;
+} */
+
+.top-games-container h2
+{
+    text-align: center;
+    margin-top: 7%;
+    font-family: monospace;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 1.8rem;
+    
+}
+
+.img-container .img-area
+{
+    cursor: pointer;
+    width: 100%;
+    
+}
+.game-main-title
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: -30px;
+    color: rgb(0, 0, 0);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dis-top-games
+{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.8;
+    justify-content: center;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 12%;
+    margin-top: -0.000%;
+    margin-right: 5%;
+    width: 80%;
+  }
+
+  .img-container img {
+    width: 100%;
+    display: block;
+    border-radius:1%;
+    transition: all 200ms ease-out;
+  }
+
+
+.products-in
+{
+    width: 50%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    border-radius: 5px;
+    
+
+}
+
+.products-img
+{
+    width: 100%;
+    padding-left: 10%;
+    height: auto;
+    flex: 50%;
+}
+
+
+.products-about 
+{
+    
+    padding-left: 10px;
+    padding-right: 20px;
+   
+}
+
+    
+.service-subscription
+{
+    text-align: center;
+    padding: 0 18px;
+    margin-left: 2%;
+    margin-right: 1%;
+    
+}
+
+.service-subscription h2
+{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.subsc-sub
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plan-subs
+{
+    font-size: 15px;
+    letter-spacing: 1.2;
+    margin: 3% ;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about-main
+  {
+      margin-top:10%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 10%;
+  }
+
+  .contact-text h3
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 1%;
+      margin-left: 0%;
+      padding-left: 20px;
+      margin-right: 0%;
+      font-weight: 500;
+      margin-bottom: 2%;
+      color: rgb(80, 79, 79);
+  }
+
+  .contact-main h1
+  {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      font-size: 35px;
+      font-weight: 500;
+      color: rgb(0, 0, 0);
+  }
+
+  
+  .form
+  {
+      border: 4px solid #f1f1f1;
+  }
+
+  .newsletter
+  {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-bottom: 15%;
+  }
+
+  .newsletter-container h2
+{
+    margin-bottom: 15px;
+}
+
+  .newsletter-container {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-right: 8%;
+    margin-left: 10%;
+    box-shadow: 0px 10px 5px 5px rgb(226, 226, 226);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  .product-description
+{
+    display: grid;
+    font-size: 20px;
+    color: rgb(226, 226, 226);
+    text-shadow: 1px solid white;
+    text-align: center;
+    
+}
+
+.product-short-des
+{
+    text-align: center;
+    margin-top: 45%;
+    justify-content: space-evenly;
+    padding: 1;
+    color: rgb(185, 185, 185);
+    position: relative;
+    font-size: 1.8rem;
+    padding: 2%;
+    word-spacing: 0.2rem;
+    font-family: 'Inter', sans-serif;
+} 
+
+.product-short-des h3
+{
+    cursor: pointer;
+    word-spacing: 0.5;
+
+} 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
