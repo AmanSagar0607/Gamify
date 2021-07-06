@@ -204,12 +204,12 @@ body
 
 }
 
-/* .navbar-2 a:hover
+ .navbar-2 a:hover
 {
     color: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0);
     
-} */
+} 
 
 .underline-hover-2::after
 {
