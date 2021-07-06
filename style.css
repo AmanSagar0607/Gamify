@@ -221,7 +221,7 @@ body
     height: 2px;
     transform: scale(0,1);
     transition: all .3s ease-in-out ;
-    background: rgb(255, 255, 255);
+    background: black;
     
 }
 
