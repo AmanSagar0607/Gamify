@@ -1769,7 +1769,7 @@ body
   .underline-hover-1::after, .underline-hover-1::before
   {
     background: none
-    display:none;
+    
   }
   
     .navbar-1 .menu
