@@ -1865,7 +1865,13 @@ body
 
   } 
 
-.navbar-2 ul li a
+ .navbar-2 ul li a
+  {
+    color: white;
+    
+  }  
+	
+  .navbar-2 ul li a:hover
   {
     color: white;
     
